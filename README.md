@@ -1,1 +1,1 @@
-# http://formulax-hns.github.io
+# https://formulax-hns.github.io/formulax/
