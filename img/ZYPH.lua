@@ -1,6 +1,6 @@
 --Hey any person which actually leeched this script, I congratulate you and wish you the best in life and congrats for decrypting my script. I honestly dont care. But its up to you to do what you want with it 
 threetwo=1
-gg.toast('ZYPH 0.1BETA  - 7/13/2020 Version 1.17.0f1145')
+gg.toast('ZYPH 1.0  - 7/13/2020 Version 1.17.0f1147')
 gg.sleep(6000)
 gg.alert("Report any bugs on discord! (Bans not counted) Thanks!")
 
