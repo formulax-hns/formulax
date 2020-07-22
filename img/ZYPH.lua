@@ -2,12 +2,12 @@ gg.toast('NecroZyph 1.0 - 1.17.0f1479')
 gg.alert('Welcome to 🔮NecroZyph🔮, enjoy your stay - Script Collab made by chr1s#0103 and CEO of Emotional Support 🖤#6028')
 
 function bitss()
-bitss = gg.choice({'32 Bit',' 64 Bit(Beta)',' Crash Game after match ends(32 Bit)','Kill Script'})
-if bitss == 1 then three() end
-if bitss == 2 then six() end
-if bitss == 3 then crash() end
-if bitss == 4 then os.exit() end
-if bitss == nil then hide() end
+bits = gg.choice({'32 Bit',' 64 Bit(Beta)',' Crash Game after match ends(32 Bit)','Kill Script'})
+if bits == 1 then three() end
+if bits == 2 then six() end
+if bits == 3 then crash() end
+if bits == 4 then os.exit() end
+if bits == nil then hide() end
 end
 
 function crash()
@@ -429,6 +429,7 @@ end
 end
 
 while true do
- if gg.isVisible(true) then bitsss()
+ if gg.isVisible(true) then bitss()
 end
 end
+ 
