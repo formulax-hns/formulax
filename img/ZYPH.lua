@@ -1,13 +1,13 @@
-gg.toast('NecroZyph 1.0 - 1.17.0f1479')
+gg.toast('NecroZyph 1.1 - 1.17.0f1479')
 gg.alert('Welcome to 🔮NecroZyph🔮, enjoy your stay - Script Collab made by chr1s#0103 and CEO of Emotional Support 🖤#6028')
 
 function bitss()
-bits = gg.choice({'32 Bit',' 64 Bit(Beta)',' Crash Game after match ends(32 Bit)','Kill Script'})
-if bits == 1 then three() end
-if bits == 2 then six() end
-if bits == 3 then crash() end
-if bits == 4 then os.exit() end
-if bits == nil then hide() end
+bitss = gg.choice({'32 Bit',' 64 Bit(Beta)',' Crash Game after match ends(32 Bit)','Kill Script'})
+if bitss == 1 then three() end
+if bitss == 2 then six() end
+if bitss == 3 then crash() end
+if bitss == 4 then os.exit() end
+if bitss == nil then hide() end
 end
 
 function crash()
@@ -34,7 +34,7 @@ gay = gg.choice({
   "Back"},tick)
 if gay == 1 then LH1() end
 if gay == 2 then EX1() end
-if gay == 3 then bitsss() end
+if gay == 3 then bitss() end
 end
 
 function LH1()
@@ -106,13 +106,13 @@ three = gg.choice({
 if three == 1 then LH() end
 if three == 2 then EX() end
 if three == 3 then VIP() end
-if three == 4 then back() end
+if three == 4 then bitss() end
 if three == nil then hide() end
 end
 
 function LH()
 legit = gg.choice({
-	"Radar + ESP",
+	"Radar",
 	"FOV",
 	"No Recoil",
     "X2 FireRate",
@@ -166,13 +166,14 @@ if vip == nil then hide() end
 end
 
 function rad()
-	gg.getRanges()
-	gg.setRanges(gg.REGION_CODE_APP)
-	gg.searchNumber("0260A0E3030050E3r", gg.TYPE_QWORD)
-	gg.getResults(100000)
-	gg.editAll("0360A0E3030050E3r", gg.TYPE_QWORD)
-	gg.clearResults()
-	gg.toast('Radar Activated✅')
+	 local old = gg.getRanges();
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("060050E101500013r", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults (100)
+gg.editAll ("0E64030000000000r", gg.TYPE_QWORD)
+gg.setRanges(old)
+gg.toast('Radar Activated')
+gg.clearResults()
 end
 
 function fov()
@@ -432,4 +433,3 @@ while true do
  if gg.isVisible(true) then bitss()
 end
 end
- 
